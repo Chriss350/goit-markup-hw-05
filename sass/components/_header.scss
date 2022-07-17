@@ -1,0 +1,105 @@
+.page-header {
+    border-bottom: 1px solid $headerLine;
+    width: 100%;
+    height: 80px;
+    // Navigation Logo && Menu
+    .mainNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav {
+            display: flex;
+            align-items: center;
+
+            .logo {
+                font-family: "Raleway", sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.19;
+                letter-spacing: 0.03em;
+                a {
+                    color: $mainLink;
+                    text-decoration: none;
+                    &:hover,
+                    &:focus {
+                        color: $mainLink;
+                    }
+                    span {
+                        color: $hoverLink;
+                    }
+                }
+            }
+            .menu {
+                list-style-type: none;
+                margin: 0px;
+                padding-left: 93px;
+                li {
+                    display: inline-block;
+                    padding-top: 32px;
+                    padding-bottom: 28px;
+                    &:not(:last-child) {
+                        margin-right: 46px;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 1.14;
+                        letter-spacing: 0.02em;
+                        color: $mainLink;
+                        &:hover,
+                        &:focus {
+                            color: $hoverLink;
+                        }
+                    }
+                }
+                .active {
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        display: block;
+                        width: 100%;
+                        height: 4px;
+                        bottom: 0px;
+                        background: $hoverLink;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+        // NavigationBarContact
+        .contact {
+            list-style: none;
+            li {
+                display: inline-block;
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+                a {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 1.14;
+                    letter-spacing: 0.02em;
+                    color: $contactColor;
+                    fill: $contactColor;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover,
+                    &:focus {
+                        color: $hoverLink;
+                        fill: $hoverLink;
+                    }
+                }
+                svg {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
