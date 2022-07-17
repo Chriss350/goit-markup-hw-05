@@ -126,8 +126,7 @@ body {
   position: relative;
   height: 600px;
   z-index: 3;
-  background: #2f303a url("../images/ImgsliderImg.jpg") no-repeat;
-  background-position: center;
+  background: #2f303a url("../images/ImgsliderImg.jpg") no-repeat center;
 }
 .content .slider:after {
   content: "";
