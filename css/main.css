@@ -241,7 +241,7 @@ body {
 .content .takeCare .items .item img {
   display: block;
 }
-.content .takeCare .items .item .lable {
+.content .takeCare .items .item .label {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -251,7 +251,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
   color: #fff;
 }
-.content .takeCare .items .item .lable p {
+.content .takeCare .items .item .label p {
   margin: 0;
   padding: 0;
   display: flex;
