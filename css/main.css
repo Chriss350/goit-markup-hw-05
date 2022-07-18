@@ -325,6 +325,7 @@ body {
   border-radius: 20px;
   background: #2196f3;
   fill: #fff;
+  cursor: pointer;
 }
 .content .team .socialMedia .items .icon {
   width: 20px;
@@ -370,6 +371,7 @@ body {
   justify-content: center;
   align-items: center;
   fill: #2196f3;
+  cursor: pointer;
 }
 .content .ourClients .items .item:not(:last-child) {
   margin: 0 15px;
